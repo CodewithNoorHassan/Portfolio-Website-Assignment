@@ -25,7 +25,7 @@ export default function Hero() {
                             className="text-3xl font-light text-gray-300"
                             style={{ fontFamily: "'Poppins', sans-serif" }}
                         >
-                            Hello, It's Me
+                            Hello, It&apos;s Me
                         </h2>
                         <h1
                             className="text-6xl font-bold text-white leading-tight mb-2"
@@ -39,7 +39,7 @@ export default function Hero() {
 
                         {/* Typing Animation */}
                         <h3 className="text-2xl font-medium mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                            And I'm a{" "}
+                            And I&apos;m a{" "}
                             <span className="typing-text font-bold text-[26px]">
                                 <Typewriter
                                     words={["Frontend Developer", "Graphic Designer", "Textile Designer", "Data Entry Expert"]}
@@ -52,6 +52,7 @@ export default function Hero() {
                                 />
                             </span>
                         </h3>
+
                         <style jsx>{`
                             .typing-text {
                                 background: linear-gradient(to right, #d946ef, #3b82f6);
